@@ -4,12 +4,15 @@
 
 **duo_web_sdk** - Provides the [Duo Web Javascript](https://duo.com/docs/duoweb) in an ES6 module format that can be installed via npm/yarn and bundled into your web application.
 
+## Note
+Forked on IndisputableLabs to fix issue [*Duo.init() can only initialize a single iframe per doc ready*](https://github.com/duosecurity/duo_web_sdk/issues/7)
+
 ## Installation
 
 Install `duo_web_sdk` from Github: 
 
-- With NPM: `npm install https://github.com/duosecurity/duo_web_sdk.git --save`
-- With yarn: `yarn add https://github.com/duosecurity/duo_web_sdk.git`
+- With NPM: `npm install https://github.com/IndisputableLabs/duo_web_sdk.git --save`
+- With yarn: `yarn add https://github.com/IndisputableLabs/duo_web_sdk.git`
 
 ## Usage
 
